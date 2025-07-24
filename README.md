@@ -1,4 +1,4 @@
-# 📘 Project Title: Adobe Sentiment Classifier
+# Adobe Sentiment Classifier
 
 ## Authors:
 
@@ -6,8 +6,11 @@
 Brief summary of the project — what it does, why it exists, and who it’s for.
 
 ---
+## 🔍 Tech Stack
 
-## 🚀 Features
+---
+
+## Features
 - [ ] Core functionality (e.g., sentiment classification)
 - [ ] Adobe-specific preprocessing
 - [ ] Custom label support (optional)
@@ -16,7 +19,7 @@ Brief summary of the project — what it does, why it exists, and who it’s for
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 ```bash
 ├── data/              # Input datasets (CSV, JSON, etc.)
 ├── models/            # Trained models and checkpoints
@@ -27,3 +30,8 @@ Brief summary of the project — what it does, why it exists, and who it’s for
 │   └── utils.py       # Metrics, helpers
 ├── requirements.txt   # Python dependencies
 └── README.md
+```
+---
+## Challenges
+---
+## Future Enhancements
