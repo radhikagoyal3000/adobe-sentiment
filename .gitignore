@@ -1,0 +1,19 @@
+# Bytecode & caches
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models and logs
+models/
+logs/
+*.ckpt
+
+# Virtual environments
+venv/
+.env
+
+# Data files
+data/
+*.csv
