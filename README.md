@@ -2,11 +2,11 @@
 
 ## Authors:
 
-## 🔍 Overview
+## Overview
 Brief summary of the project — what it does, why it exists, and who it’s for.
 
 ---
-## 🔍 Tech Stack
+## Tech Stack
 
 ---
 
