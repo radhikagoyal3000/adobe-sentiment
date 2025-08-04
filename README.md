@@ -6,7 +6,7 @@
 Brief summary of the project — what it does, why it exists, and who it’s for.
 
 ---
-## 🔍 Tech Stack
+## Tech Stack
 
 ---
 
@@ -17,6 +17,13 @@ Brief summary of the project — what it does, why it exists, and who it’s for
 - [ ] Model evaluation + aggregation
 - [ ] Integration with engagement metrics
 
+---
+## Getting Started
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+```
 ---
 
 ## Project Structure
