@@ -19,10 +19,22 @@ Brief summary of the project — what it does, why it exists, and who it’s for
 
 ---
 ## Getting Started
+
+### 1. Clone the Repository
 ```bash
+git clone https://github.com/YOUR_USERNAME/adobe-sentiment.git
+cd adobe-sentiment
+
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+```
+no need to clean data again, do not touch!! 
+You only have to split the data with your respective cleaned csv file
+
+
+```bash
+python src/split_and_clean.py
 ```
 ---
 
