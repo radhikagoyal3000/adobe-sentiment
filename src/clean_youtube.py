@@ -16,7 +16,8 @@ ADOBE_PRODUCTS = [
 def clean_text(text):
     if pd.isna(text):
         return ""
-    text = text.lower()
+    # text = text.lower()
+    # uncased for roberta distill unbased
     text = emoji.demojize(text, language='en')                       # 🔥 → :fire:
     text = re.sub(r"v\d+(\.\d+)*", "[version]", text)                # Replace version numbers
     text = re.sub(r"http\S+", "", text)                              # Remove URLs
