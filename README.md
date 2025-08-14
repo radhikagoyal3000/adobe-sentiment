@@ -43,15 +43,24 @@ python src/split_and_clean.py
 
 ## Project Structure
 ```bash
-├── data/              # Input datasets (CSV, JSON, etc.)
-├── models/            # Trained models and checkpoints
-├── notebooks/         # Analysis and evaluation notebooks
-├── src/               # Source code
-│   ├── train.py       # Training loop
-│   ├── preprocess.py  # Data cleaning and normalization
-│   └── utils.py       # Metrics, helpers
-├── requirements.txt   # Python dependencies
-└── README.md
+├── data/                     # Input datasets (CSV files)
+│   ├── all_youtube.csv        # Raw YouTube comments
+│   ├── caps_comments_cleaned.csv  # Cleaned comments (capitalization preserved)
+│   └── LOWER_cleaned.csv      # Cleaned comments (lowercased)
+│
+├── models/                    # Trained models and checkpoints (ignored in git)
+│
+├── notebooks/                 # Jupyter notebooks for analysis/evaluation
+│
+├── src/                       # Source code
+│   ├── clean_youtube.py       # Script to clean YouTube comments
+│   ├── preprocess.py          # Text preprocessing functions
+│   ├── split_and_clean.py     # Splits cleaned data into train/val/test
+│   └── train.py               # Training script for sentiment/engagement models
+│
+├── .gitignore                 # Files and folders to ignore in git
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project overview and setup instructions
 ```
 ---
 ## Challenges
