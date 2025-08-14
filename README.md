@@ -20,7 +20,10 @@ Brief summary of the project — what it does, why it exists, and who it’s for
 ---
 ## Getting Started
 
-### 1. Clone the Repository
+### Fork the Repository then Clone the Fork
+Fork, then clone your fork. On GitHub, click Fork on this repo (top-right).
+
+Clone your fork locally:
 ```bash
 git clone https://github.com/YOUR_USERNAME/adobe-sentiment.git
 cd adobe-sentiment
