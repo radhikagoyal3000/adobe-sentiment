@@ -15,5 +15,5 @@ venv/
 .env
 
 # Data files
-data/
-*.csv
+#data/
+#*.csv
