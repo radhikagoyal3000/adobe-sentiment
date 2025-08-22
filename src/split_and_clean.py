@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 # ======== EDIT HERE ========
 CSV_PATH = "data/name_of_ur_file.csv"  # Path to your CSV file
 TEXT_COL = "cleaned_comment_for_sentiment"      # Column containing the text
-LABEL_COL = "sentiment_label"                   # Change to "engagement_label" if needed
+LABEL_COL = "engagement_label"                   # Change to "engagement_label" if needed
 # ===========================
 
 # Load CSV
