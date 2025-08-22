@@ -101,7 +101,7 @@ def main():
         weight_decay=0.01,
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch,
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
         logging_dir=log_dir,
